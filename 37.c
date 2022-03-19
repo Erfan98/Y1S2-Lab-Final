@@ -1,9 +1,12 @@
 /*
 Write a program to print the below pattern with respect to its row number.
 i.e for row number of 3
-  *
- ***
-*****
+        *
+      * * *
+    * * * * *
+  * * * * * * *
+* * * * * * * * *
+
 */
 
 #include <stdio.h>
