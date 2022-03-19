@@ -14,7 +14,7 @@ void swap(int *a, int *b)
 int main()
 {
     int num1, num2;
-    printf("Enter two numbers to swap: ")
+    printf("Enter two numbers to swap: ");
     scanf("%d%d", &num1, &num2);
     printf("Before swapping the numbers are respectively num1= %d and num2= %d\n", num1 , num2);
 
