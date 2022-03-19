@@ -17,8 +17,7 @@ int main(){
             if(str[i]==str[j])
                 count++;
         }
-        if(count>maxcount)
-        {
+        if(count>maxcount){
             maxcount=count;
             max=str[i];
         }
