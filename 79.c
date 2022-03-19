@@ -8,11 +8,14 @@ int main()
     char *ptr;
     gets(s);
     ptr = s;
-    int countVowel=0, countConsonent=0;
+    int countVowel=0, countConsonent=0,space=0;
     while(*ptr != '\0') {
         if(*ptr=='a' || *ptr=='e' || *ptr=='i' || *ptr=='o'||*ptr=='u'|| *ptr=='A' || *ptr=='E' || *ptr=='I' || *ptr=='O' || *ptr=='U') {
             countVowel++;
-        } else {
+        }
+        else if(*ptr==' ')
+            space++;
+        else {
             countConsonent++;
         }
         ptr++;
